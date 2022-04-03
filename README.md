@@ -26,4 +26,4 @@ The api get's a file from another API and stores it in the resources folder whic
 5. Go to http://localhost:3000/ -> it will render the HomePage
 6. Go to http://localhost:3000/food-trucks will bring the data with all the food trucks in San Francisco.
 7. Go to http://localhost:3000/food-trucks/id -> id is a locationid to bring all the food trucks in that location.
-8. Go to http://localhost:3000/food-trucks/filter? -> and provide query string parameters to filter the list based on the options you like.(available parameters for the query string are available on the models/foodTruck.js
+8. Go to http://localhost:3000/food-trucks/filter? -> and provide query string parameters to filter the list based on the options you like. (available parameters for the query string are available on the models/foodTruck.js)
