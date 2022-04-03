@@ -28,12 +28,17 @@ The api get's a file from another API and stores it in the resources folder whic
 7. Go to http://localhost:3000/food-trucks/id -> id is a locationid to bring all the food trucks in that location.
 8. Go to http://localhost:3000/food-trucks/filter? -> and provide query string parameters to filter the list based on the options you like. (available parameters for the query string are available on the models/foodTruck.js)
 
-## Improvements
+## Improvements and language choice
+
+I chose node.js, specifically express due to the fact that is a powerful framework for node.js, can be used to create web applications and API's and this module contains JavaScript and node, what I use daily.
+The langauge can be easily connected with an html file and a database, how we can see in the improvements below.
 
 The program can be improved with:
-1. The information from the csv file can be added to a local DB so we can have the opportunity to create queries
+1. The information from the csv file can be added to a local DB so we can have the opportunity to create queries.
+2. We can create pages with a specific number of food trucks displayed.
+3. We can create a html file with a table were we will store our data.
+4. Every route can be added on a specific button like: Give me all food trucks that will trigger our route http://localhost:3000/food-trucks
 
-## Lanaguage choice
 
 ## Images from runtime
 
