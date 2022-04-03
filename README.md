@@ -2,8 +2,8 @@
 A simple web API for finding food trucks from san francisco and filtering it by needs and information that is required.
 The api get's a file from another API and stores it in the resources folder which is used for parsing and querying the data for the routes used in the API.
 
-##Project Structure:
- -Controller
+## Project Structure:
+ Markup :-Controller
     -All the necesary controller will be contained in this folder
  -dataProvider
     -Contains methods for bringing the data in our local resources folder, or can be changed to bring data to a local DB
