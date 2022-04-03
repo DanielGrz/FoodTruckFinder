@@ -30,8 +30,9 @@ The api get's a file from another API and stores it in the resources folder whic
 
 ## Improvements and language choice
 
-I chose node.js, specifically express due to the fact that is a powerful framework for node.js, can be used to create web applications and API's and this module contains JavaScript and node, what I use daily.
-The langauge can be easily connected with an html file and a database, how we can see in the improvements below.
+I chose node.js, to be specific express js framework due to the fact that is based on javascript and node which I use daily.
+Can be used to create web applications and API's.
+The framework can be easily connected with an html file and a database, how we can see in the improvements below.
 
 The program can be improved with:
 1. The information from the csv file can be added to a local DB so we can have the opportunity to create queries.
