@@ -3,20 +3,20 @@ A simple web API for finding food trucks from san francisco and filtering it by 
 The api get's a file from another API and stores it in the resources folder which is used for parsing and querying the data for the routes used in the API.
 
 ## Project Structure:
- Markup :-Controller
-    -All the necesary controller will be contained in this folder
- -dataProvider
-    -Contains methods for bringing the data in our local resources folder, or can be changed to bring data to a local DB
- -dataReader
-    -Contains the information brought by the dataProvider and is made avaliable to the API.
- -Models
-    -Contains the model for the response of the API and in which we match data to the props.
- -Resources
-    -Contains the file saved by the dataProvider
- -Routes
-    -Contains the api routes for every service provided.
- -Server.js
-    -Contains all the configuration for running the server and configuration for routes available to the API.
+ * Controller
+    * Sub All the necesary controller will be contained in this folder
+ * dataProvider
+    * Sub Contains methods for bringing the data in our local resources folder, or can be changed to bring data to a local DB
+ * dataReader
+    * Sub Contains the information brought by the dataProvider and is made avaliable to the API.
+ * Models
+    * Sub Contains the model for the response of the API and in which we match data to the props.
+ * Resources
+    * Sub Contains the file saved by the dataProvider
+ * Routes
+    * Sub Contains the api routes for every service provided.
+ * Server.js
+    * Sub Contains all the configuration for running the server and configuration for routes available to the API.
 
 ## How To Run It Localy
 1.Have Node.js installed on your local machine, you can get it from: https://nodejs.org/en/ download the LTS version.
